@@ -45,20 +45,20 @@ function Navigations({ toggleShowCart }) {
   return (
     <nav className={`nav container ${isNavOpen ? "nav-open" : ""}`}>
       <span className="brand-name">
-        <Link to="/">Ace Store</Link>
+        <Link to="/">Rosesland™</Link>
       </span>
       <ul className="nav-link_container">
         <li className="nav-link">
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/">Página Principal</NavLink>
         </li>
         <li className="nav-link">
-          <NavLink to="/explore/men">Men</NavLink>
+          <NavLink to="/explore/men">Catálogo</NavLink>
         </li>
         <li className="nav-link">
-          <NavLink to="/explore/women">Women</NavLink>
+          <NavLink to="/explore/women">Sobre Nosotros</NavLink>
         </li>
         <li className="nav-link">
-          <NavLink to="/explore/all">Explore All</NavLink>
+          <NavLink to="/explore/all">Contáctanos</NavLink>
         </li>
       </ul>
       <div className="nav-secondary_btn" onClick={handleOpenNavigation}>

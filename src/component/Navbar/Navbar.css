@@ -11,6 +11,12 @@
   justify-content: space-between;
   align-items: center;
   font-size: 1.8rem;
+  .brand-name {
+    font-size: 4rem;
+    font-weight: 300;
+    margin-top: 3rem;
+    cursor: pointer;
+  }
   /* padding: 24px 0px; */
 }
 .nav-link_container {
