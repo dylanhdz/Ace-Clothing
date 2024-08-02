@@ -17,7 +17,7 @@ function HomeInfo() {
         </p>
       </div>
       <button className="explore-clothing_btn">
-        <Link to="explore/all"><h1>Descubre</h1>nuestros productos</Link>
+        <Link to="explore/all"><h1 style={{ display: 'inline' }}>¡Descubre ya </h1><h2 style={{ display: 'inline' }}>nuestros productos!</h2></Link>
       </button>
     </article>
   );

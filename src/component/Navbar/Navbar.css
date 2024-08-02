@@ -17,6 +17,9 @@
     margin-top: 3rem;
     cursor: pointer;
   }
+  .brand-name a:hover {
+    color: #8c0c0c;
+  }
   /* padding: 24px 0px; */
 }
 .nav-link_container {
